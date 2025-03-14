@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+li {
+
+    color: gray;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+select,
+h5 {
+
+    font-size: 12px;
+}
+
+@media screen and (max-width:676px) {
+
+    .container {
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .left {
+
+        flex-direction: column;
+        justify-content: center;
+        /* width: 100vw; */
+        align-items: center;
+        /* height: 100%;    */
+    }
+
+    .instagram-logo {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .heading-1 {
+
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .VL {
+
+        display: none;
+    }
+
+    ul {
+
+        display: none;
+    }
+
+    .instagram-img {
+
+        display: none;
+    }
+
+    .right {
+        flex-direction: column;
+        width: 90vw;
+        justify-content: space-around;
+        height: 80vh;
+        align-content: center;
+    }
+
+    .footer {
+
+        display: none;
+    }
+
+}
